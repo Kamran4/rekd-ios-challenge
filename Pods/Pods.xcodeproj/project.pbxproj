@@ -3,90 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		065999EBC5A9946EB3E196CDFC4A105D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */; };
-		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FAF1BEA6B547993B2E30671010EC05 /* ParameterEncoding.swift */; };
-		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD89CF68E30F783D6E1E6D503D967E /* Notifications.swift */; };
-		134D6A079CE56DA8A363F1822AE7B55C /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D8727A1F401FF288F200928AF1EE2 /* UIButton+AlamofireImage.swift */; };
-		16A283C1AC8B70DB06BE7F5E9BEDDAB5 /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA7BF1655B11572E852653C587AA09 /* UIImageView+AlamofireImage.swift */; };
-		17B60B62EC7F5B838B8368BFD7AF010C /* Pods-Rekd Challenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 937625AFE960C162C30AD2100DFB188B /* Pods-Rekd Challenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9C6331B9DA4E33C6447F5558A3EA3A /* Alamofire-dummy.m */; };
-		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB455674D1A61C599677C2903B2A22B1 /* MultipartFormData.swift */; };
-		297C3805C3F9CD0B954C14C0B86007E5 /* Pods-Rekd ChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD15E11CB38DB775CE87982529179EE /* Pods-Rekd ChallengeTests-dummy.m */; };
-		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B67632C26FE2E2F884AED5D71B6E6A /* SessionDelegate.swift */; };
-		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA616EC751C65BEAB9D46E78EE39D4 /* NetworkReachabilityManager.swift */; };
-		496CF5D04438901051F55A4540842073 /* Pods-Rekd Challenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E4FD856503919DA4DD4F7329E651C7 /* Pods-Rekd Challenge-dummy.m */; };
-		4AC71683BB84DFAE3F0FCD5FF5A7AC7C /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5B4E559306AB51847FC8EDED3F587 /* ImageCache.swift */; };
-		4B7E5B28FE47F753E1197A39F77DD41B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
-		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE269E821AD48EC2D281CA41C7F00E0F /* Validation.swift */; };
-		58880A0E11955B8BE86FD35CDD8AE929 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1448F1808234E54D95EA8DBEBD06B882 /* ImageDownloader.swift */; };
-		5C74F467EE05992C5EE95FA46D4F1AD7 /* AlamofireImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9385F07BB23DE9DCBF19C870EF638FFD /* AlamofireImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E3FE24F26AE535303A47488BE8188E2 /* AlamofireImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBD9F09A714D7E9B1AD4C56A7DF8F99 /* AlamofireImage-dummy.m */; };
-		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A3AB9565EB74663A495F4ABF89195 /* Result.swift */; };
-		7324E974E688AAC4EE4D8C6185E63C21 /* Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEB3A7AFE629C1EC7D1A78DAFF48129 /* Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m */; };
-		75C7A60D8FA8F39F14599593E137981C /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8FB454412E779395F8F70A4EDC73C2 /* ImageFilter.swift */; };
-		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
-		76CB43C41397111973959B5AB1773658 /* Pods-Rekd ChallengeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F5D617B1989B66789958B250D57F5B /* Pods-Rekd ChallengeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D51DA233330F5E92C4EC83A131B991 /* AFError.swift */; };
-		8CD7EC0291E44E17C63D50ED625F7786 /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF99DECAB123FD139A547D27187AAB6 /* UIImage+AlamofireImage.swift */; };
-		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5A1EA5DF76B6270A30A51B04B19CE /* SessionManager.swift */; };
-		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE94D56276E5C542FCE3F9D0D3DEA45 /* Timeline.swift */; };
-		94D11FD76B9A1029E09AB4CA2F46B670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
-		95B80BC903B154BC90EE86A67C680FBF /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A280D9F5D700FAEF3EF7EE04DED1204 /* Request+AlamofireImage.swift */; };
-		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2AD0BDBCC66A5C738D4A494096FF16 /* Request.swift */; };
-		9A56D2C6A0B6DAB2907A16166E5E171E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72CFAB96B6D1D3C4DC0C76F398210D /* Image.swift */; };
-		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982D59A523E5EAE1BD4B0A338F97C39D /* TaskDelegate.swift */; };
-		B033456D8DF2D4465993D4AC36A9F45A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
-		B35221A8D4FF492A4FA00243479129D5 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4176E5B1F4122C8D27CB8068077D29D /* AFIError.swift */; };
-		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC96955443EA38F409A499177228ECE /* Alamofire.swift */; };
-		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FDFABB05F29E5CB214D1C0B49EA0CD /* DispatchQueue+Alamofire.swift */; };
-		D3F25E46C0763B00E46EFAB674D2AD8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
-		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEE46880BB32AB3D57E5640F7B98B0 /* Response.swift */; };
-		DFD946B346C536F643FA136E9E83C364 /* Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49E170CFE352266831D0509EAD532F4 /* Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265324F8BD9638EB8CFC259F0918366C /* ResponseSerialization.swift */; };
-		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03FF5EDFF22821FB612824EF121860 /* ServerTrustPolicy.swift */; };
-		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67FBBF17CF8D1C5C74077FA6A7167E71 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297C3805C3F9CD0B954C14C0B86007E5 /* Pods-Rekd ChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F03E6C9AEDE58F22DD4EEB57CA94C9E1 /* Pods-Rekd ChallengeTests-dummy.m */; };
+		35158739331A9A6B7D78C0DE3A5FBE87 /* Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98922AF70DC2E2B24C60D4844B39C22C /* Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3975396491539741C11613170C15D0AD /* Pods-Rekd Challenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B17FC8C8BEED6C78F6EE0E3387AF6F04 /* Pods-Rekd Challenge-dummy.m */; };
+		651761D434FF077AC17C69B4CF84453E /* Pods-Rekd Challenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC3E5901C69D9F9F507BA82801489A0 /* Pods-Rekd Challenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76CB43C41397111973959B5AB1773658 /* Pods-Rekd ChallengeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB6286D79B44E00626DEFD6B4332A50 /* Pods-Rekd ChallengeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94D11FD76B9A1029E09AB4CA2F46B670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AC070DBCA8BC5A7A14638142A0FF8603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B3B13D2DFAE9137FD8E852C68489CC75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D56F2CC5E3B7F79EF76F97A8AAE1AE76 /* Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F023F94F07D9F7515A6E95B52E84E2 /* Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		40657EB060E5321A27DE25DB2F61D493 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		5CA04AA9F54E84D3258149C65CF4F91A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
-			remoteInfo = AlamofireImage;
-		};
-		61ED7C12C78B21F04C4FEBF0C376E4D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
-			remoteInfo = AlamofireImage;
-		};
-		627DDEA84FE71197B99A9FB8741B48EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		D3865EE64EFC77C38308D808AE92C719 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
 		DD23F34FDA1E486DF31C1A1F07B9BD0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -97,97 +29,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		090E0D675B645DE622E483422DD105A7 /* Pods-Rekd ChallengeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rekd ChallengeTests.modulemap"; sourceTree = "<group>"; };
-		0A03FF5EDFF22821FB612824EF121860 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		110585212D0EA4A5CD074C5A47BBA900 /* AlamofireImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-prefix.pch"; sourceTree = "<group>"; };
-		1448F1808234E54D95EA8DBEBD06B882 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Source/ImageDownloader.swift; sourceTree = "<group>"; };
-		14A275D1E81A986F1DAB8BF732CAE004 /* AlamofireImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlamofireImage-Info.plist"; sourceTree = "<group>"; };
-		1A280D9F5D700FAEF3EF7EE04DED1204 /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Request+AlamofireImage.swift"; path = "Source/Request+AlamofireImage.swift"; sourceTree = "<group>"; };
-		21372C93906319F14A10F385E052B905 /* Pods-Rekd Challenge-Rekd ChallengeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd Challenge-Rekd ChallengeUITests-Info.plist"; sourceTree = "<group>"; };
-		265324F8BD9638EB8CFC259F0918366C /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		2829B6D20E7CC4B13DD121CB905B5B22 /* AlamofireImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireImage.xcconfig; sourceTree = "<group>"; };
-		29E4FD856503919DA4DD4F7329E651C7 /* Pods-Rekd Challenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rekd Challenge-dummy.m"; sourceTree = "<group>"; };
-		2A72CFAB96B6D1D3C4DC0C76F398210D /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
-		2FC96955443EA38F409A499177228ECE /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		33DC2684A3A9F1B375FFF9A95327BFD8 /* Pods-Rekd Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd Challenge.release.xcconfig"; sourceTree = "<group>"; };
-		34BD89CF68E30F783D6E1E6D503D967E /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		37C8B1B7BE4E600F0A7754E9A98A3EE8 /* Pods-Rekd ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56624C9793FA0CF077CAF4A0C7A9DC42 /* Pods-Rekd Challenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd Challenge-acknowledgements.plist"; sourceTree = "<group>"; };
-		582D8E99538A942C01BE26FFB8B6516F /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		59100D85E2A61FA609F33F888825379E /* Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5BCD5BE320519651B4DD14B742159A37 /* Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
-		5CBD9F09A714D7E9B1AD4C56A7DF8F99 /* AlamofireImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireImage-dummy.m"; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DA00FF9E330530AFC8DAFDF65BD641D /* AlamofireImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlamofireImage.modulemap; sourceTree = "<group>"; };
-		66B67632C26FE2E2F884AED5D71B6E6A /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		66F5D617B1989B66789958B250D57F5B /* Pods-Rekd ChallengeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rekd ChallengeTests-umbrella.h"; sourceTree = "<group>"; };
-		67FBBF17CF8D1C5C74077FA6A7167E71 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		00B5865E1182314EDA3914FBE9188828 /* Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10DD7799DEC5D7B91338F4EBA30F0781 /* Pods-Rekd Challenge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd Challenge-Info.plist"; sourceTree = "<group>"; };
+		2DF5C445E9A309802E2AD295A0BE0C2B /* Pods-Rekd Challenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rekd Challenge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3657F9AF316EAA706522CB6F0115A296 /* Pods-Rekd Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		3CC8D0D769D1BFF3AA45B3ED7378C356 /* Pods-Rekd ChallengeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd ChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		4FC3E5901C69D9F9F507BA82801489A0 /* Pods-Rekd Challenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rekd Challenge-umbrella.h"; sourceTree = "<group>"; };
+		518EC51CB85661481D49383DCE8DB960 /* Pods-Rekd ChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd ChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		60AC422C92B21581448338CE6546BB51 /* Pods-Rekd ChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rekd ChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67F69CFFC6847AD6BBFB948E12A0F2C9 /* Pods-Rekd ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		68B349F2AE72929F071E185167A4CACD /* Pods_Rekd_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rekd_Challenge.framework; path = "Pods-Rekd Challenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B9C6331B9DA4E33C6447F5558A3EA3A /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		6D916E15527980ED74F6F926D3CCEAA8 /* Pods-Rekd Challenge-Rekd ChallengeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rekd Challenge-Rekd ChallengeUITests-frameworks.sh"; sourceTree = "<group>"; };
-		81BEE46880BB32AB3D57E5640F7B98B0 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		81CFAAD30FB1F84BC239DF8B0A2EBE48 /* Pods-Rekd Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd Challenge.debug.xcconfig"; sourceTree = "<group>"; };
-		82628580337A910B11563FE6FCA10497 /* Pods-Rekd ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
-		8A26294A3F09C0E62603CDBE7EAB870B /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		8EF437FA4EE03F31C08DB33458BB2F19 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		937625AFE960C162C30AD2100DFB188B /* Pods-Rekd Challenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rekd Challenge-umbrella.h"; sourceTree = "<group>"; };
-		9385F07BB23DE9DCBF19C870EF638FFD /* AlamofireImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-umbrella.h"; sourceTree = "<group>"; };
-		9774177129BDE1A0ADB4CA3113B70026 /* Pods-Rekd ChallengeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd ChallengeTests-Info.plist"; sourceTree = "<group>"; };
-		982D59A523E5EAE1BD4B0A338F97C39D /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		9CD5B4E559306AB51847FC8EDED3F587 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
+		6AB686883950CCF575C8FD0C5E9D2996 /* Pods-Rekd Challenge-Rekd ChallengeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd Challenge-Rekd ChallengeUITests-Info.plist"; sourceTree = "<group>"; };
+		7CB6286D79B44E00626DEFD6B4332A50 /* Pods-Rekd ChallengeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rekd ChallengeTests-umbrella.h"; sourceTree = "<group>"; };
+		8031C6107CF63C4FA474161546D2BEF6 /* Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82253A3B285E7345C88EDE7630B0BBBA /* Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		98922AF70DC2E2B24C60D4844B39C22C /* Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A089A65F70E87407F1E92BE3B72C070B /* Pods-Rekd Challenge-Rekd ChallengeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rekd Challenge-Rekd ChallengeUITests.modulemap"; sourceTree = "<group>"; };
-		ABEB3A7AFE629C1EC7D1A78DAFF48129 /* Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m"; sourceTree = "<group>"; };
-		AEB5A1EA5DF76B6270A30A51B04B19CE /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		A87131EDB5124DF8157F6B89E1225633 /* Pods-Rekd Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C3C2C12F799CF03596AD787791533E /* Pods-Rekd Challenge-Rekd ChallengeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rekd Challenge-Rekd ChallengeUITests.modulemap"; sourceTree = "<group>"; };
 		B0EABF159F3185756305745B82104325 /* Pods_Rekd_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rekd_ChallengeTests.framework; path = "Pods-Rekd ChallengeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17FC8C8BEED6C78F6EE0E3387AF6F04 /* Pods-Rekd Challenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rekd Challenge-dummy.m"; sourceTree = "<group>"; };
 		B9100ED077F04040573FEB5131B7D0C5 /* Pods_Rekd_Challenge_Rekd_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rekd_Challenge_Rekd_ChallengeUITests.framework; path = "Pods-Rekd Challenge-Rekd ChallengeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9D51DA233330F5E92C4EC83A131B991 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		BB61D88A24B0C82CCFA9144030ABE97B /* Pods-Rekd Challenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rekd Challenge.modulemap"; sourceTree = "<group>"; };
-		BBF99DECAB123FD139A547D27187AAB6 /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
-		BF8FB454412E779395F8F70A4EDC73C2 /* ImageFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFilter.swift; path = Source/ImageFilter.swift; sourceTree = "<group>"; };
-		C00E05124AD2CE27606EFE0CECB2A545 /* Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C4176E5B1F4122C8D27CB8068077D29D /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
-		C63D8727A1F401FF288F200928AF1EE2 /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
-		C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA3F2B9AED4B9D43BF3D12C6E31CD06F /* Pods-Rekd ChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd ChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB455674D1A61C599677C2903B2A22B1 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		CBC17E38E740844859721DF37C653BE4 /* Pods-Rekd Challenge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd Challenge-Info.plist"; sourceTree = "<group>"; };
-		CDFE60E1A7E360D8E38B3EC759A997E9 /* Pods-Rekd Challenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rekd Challenge-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D609040C038FD5079625EE02F82C2B94 /* Pods-Rekd Challenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rekd Challenge-frameworks.sh"; sourceTree = "<group>"; };
-		D6EA7BF1655B11572E852653C587AA09 /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
-		DBFA616EC751C65BEAB9D46E78EE39D4 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		DE2AD0BDBCC66A5C738D4A494096FF16 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		E2FAF1BEA6B547993B2E30671010EC05 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		E2FDFABB05F29E5CB214D1C0B49EA0CD /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		E59A3AB9565EB74663A495F4ABF89195 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		EBE94D56276E5C542FCE3F9D0D3DEA45 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		EE269E821AD48EC2D281CA41C7F00E0F /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		EF5220A710919953FD8E54BD862FB5D8 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		EFEC2674758FF0EF2C0E1B7BCC617ACA /* Pods-Rekd ChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rekd ChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F49E170CFE352266831D0509EAD532F4 /* Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h"; sourceTree = "<group>"; };
-		FB5CBDE2ED2425CD449A9F785657A930 /* Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FCD15E11CB38DB775CE87982529179EE /* Pods-Rekd ChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rekd ChallengeTests-dummy.m"; sourceTree = "<group>"; };
+		C5B4EC5AC3C1065A308192FCE1B57106 /* Pods-Rekd Challenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rekd Challenge-acknowledgements.plist"; sourceTree = "<group>"; };
+		E46717B1EB3C4B3CAD354AC91D5E3ABB /* Pods-Rekd ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4EA6F5569514CF18B630CB9540AD300 /* Pods-Rekd ChallengeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rekd ChallengeTests.modulemap"; sourceTree = "<group>"; };
+		E6F023F94F07D9F7515A6E95B52E84E2 /* Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m"; sourceTree = "<group>"; };
+		EBA0E2BC44F20AFA8627D103F3E5F83A /* Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F03E6C9AEDE58F22DD4EEB57CA94C9E1 /* Pods-Rekd ChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rekd ChallengeTests-dummy.m"; sourceTree = "<group>"; };
+		F77ADB494324459913CA291A7D48587E /* Pods-Rekd Challenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rekd Challenge.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		090C1D63463ACF622287EFF9D5C9392D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		198CF77D256162AFCEBFA4494D5944DE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B7E5B28FE47F753E1197A39F77DD41B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6E82E33F13825706F59247A05249053C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,131 +69,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B68A80D165A6FC29DAEDE43A5F99F6C4 /* Frameworks */ = {
+		90CFDB7C98FAA008D7F6A5002E0DA7C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065999EBC5A9946EB3E196CDFC4A105D /* Alamofire.framework in Frameworks */,
-				B033456D8DF2D4465993D4AC36A9F45A /* Foundation.framework in Frameworks */,
+				B3B13D2DFAE9137FD8E852C68489CC75 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA07F03033D46CEBD537256139B72A68 /* Frameworks */ = {
+		E51DAF7C29325F625A5D1907572642CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3F25E46C0763B00E46EFAB674D2AD8D /* Foundation.framework in Frameworks */,
+				AC070DBCA8BC5A7A14638142A0FF8603 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A0E4CBF665F55D52E26A4115C0B775C /* Support Files */ = {
+		977FF6724AD4DCDD5FDEA9F23754C1E5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8EF437FA4EE03F31C08DB33458BB2F19 /* Alamofire.modulemap */,
-				EF5220A710919953FD8E54BD862FB5D8 /* Alamofire.xcconfig */,
-				6B9C6331B9DA4E33C6447F5558A3EA3A /* Alamofire-dummy.m */,
-				8A26294A3F09C0E62603CDBE7EAB870B /* Alamofire-Info.plist */,
-				582D8E99538A942C01BE26FFB8B6516F /* Alamofire-prefix.pch */,
-				67FBBF17CF8D1C5C74077FA6A7167E71 /* Alamofire-umbrella.h */,
+				E8755E98C2003E0495B55ED8B1E35244 /* Pods-Rekd Challenge */,
+				98DAC3E8025697BB46F19732375615B2 /* Pods-Rekd Challenge-Rekd ChallengeUITests */,
+				EC37237007D730D49D85EC02582428DF /* Pods-Rekd ChallengeTests */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1398D19D371FCEA8D97A39EF35582F18 /* Pods-Rekd ChallengeTests */ = {
+		98DAC3E8025697BB46F19732375615B2 /* Pods-Rekd Challenge-Rekd ChallengeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				090E0D675B645DE622E483422DD105A7 /* Pods-Rekd ChallengeTests.modulemap */,
-				EFEC2674758FF0EF2C0E1B7BCC617ACA /* Pods-Rekd ChallengeTests-acknowledgements.markdown */,
-				CA3F2B9AED4B9D43BF3D12C6E31CD06F /* Pods-Rekd ChallengeTests-acknowledgements.plist */,
-				FCD15E11CB38DB775CE87982529179EE /* Pods-Rekd ChallengeTests-dummy.m */,
-				9774177129BDE1A0ADB4CA3113B70026 /* Pods-Rekd ChallengeTests-Info.plist */,
-				66F5D617B1989B66789958B250D57F5B /* Pods-Rekd ChallengeTests-umbrella.h */,
-				37C8B1B7BE4E600F0A7754E9A98A3EE8 /* Pods-Rekd ChallengeTests.debug.xcconfig */,
-				82628580337A910B11563FE6FCA10497 /* Pods-Rekd ChallengeTests.release.xcconfig */,
+				B0C3C2C12F799CF03596AD787791533E /* Pods-Rekd Challenge-Rekd ChallengeUITests.modulemap */,
+				00B5865E1182314EDA3914FBE9188828 /* Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.markdown */,
+				82253A3B285E7345C88EDE7630B0BBBA /* Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.plist */,
+				E6F023F94F07D9F7515A6E95B52E84E2 /* Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m */,
+				6AB686883950CCF575C8FD0C5E9D2996 /* Pods-Rekd Challenge-Rekd ChallengeUITests-Info.plist */,
+				98922AF70DC2E2B24C60D4844B39C22C /* Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h */,
+				8031C6107CF63C4FA474161546D2BEF6 /* Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig */,
+				EBA0E2BC44F20AFA8627D103F3E5F83A /* Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig */,
 			);
-			name = "Pods-Rekd ChallengeTests";
-			path = "Target Support Files/Pods-Rekd ChallengeTests";
+			name = "Pods-Rekd Challenge-Rekd ChallengeUITests";
+			path = "Target Support Files/Pods-Rekd Challenge-Rekd ChallengeUITests";
 			sourceTree = "<group>";
 		};
-		2F2A6FCCD7293377A61DF5D10894ACF2 /* Frameworks */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */,
-				DBBD239EB7C1C83EA80124D1A53485AB /* iOS */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		4C9DE0C4AE0F2B2170FCAB7317773B25 /* Alamofire */ = {
+		CD2A19BFB32DBB3F53B133F6852B97E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9D51DA233330F5E92C4EC83A131B991 /* AFError.swift */,
-				2FC96955443EA38F409A499177228ECE /* Alamofire.swift */,
-				E2FDFABB05F29E5CB214D1C0B49EA0CD /* DispatchQueue+Alamofire.swift */,
-				CB455674D1A61C599677C2903B2A22B1 /* MultipartFormData.swift */,
-				DBFA616EC751C65BEAB9D46E78EE39D4 /* NetworkReachabilityManager.swift */,
-				34BD89CF68E30F783D6E1E6D503D967E /* Notifications.swift */,
-				E2FAF1BEA6B547993B2E30671010EC05 /* ParameterEncoding.swift */,
-				DE2AD0BDBCC66A5C738D4A494096FF16 /* Request.swift */,
-				81BEE46880BB32AB3D57E5640F7B98B0 /* Response.swift */,
-				265324F8BD9638EB8CFC259F0918366C /* ResponseSerialization.swift */,
-				E59A3AB9565EB74663A495F4ABF89195 /* Result.swift */,
-				0A03FF5EDFF22821FB612824EF121860 /* ServerTrustPolicy.swift */,
-				66B67632C26FE2E2F884AED5D71B6E6A /* SessionDelegate.swift */,
-				AEB5A1EA5DF76B6270A30A51B04B19CE /* SessionManager.swift */,
-				982D59A523E5EAE1BD4B0A338F97C39D /* TaskDelegate.swift */,
-				EBE94D56276E5C542FCE3F9D0D3DEA45 /* Timeline.swift */,
-				EE269E821AD48EC2D281CA41C7F00E0F /* Validation.swift */,
-				0A0E4CBF665F55D52E26A4115C0B775C /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		4EFCF33C3A7591280EDD315956A1A62A /* AlamofireImage */ = {
-			isa = PBXGroup;
-			children = (
-				C4176E5B1F4122C8D27CB8068077D29D /* AFIError.swift */,
-				2A72CFAB96B6D1D3C4DC0C76F398210D /* Image.swift */,
-				9CD5B4E559306AB51847FC8EDED3F587 /* ImageCache.swift */,
-				1448F1808234E54D95EA8DBEBD06B882 /* ImageDownloader.swift */,
-				BF8FB454412E779395F8F70A4EDC73C2 /* ImageFilter.swift */,
-				1A280D9F5D700FAEF3EF7EE04DED1204 /* Request+AlamofireImage.swift */,
-				C63D8727A1F401FF288F200928AF1EE2 /* UIButton+AlamofireImage.swift */,
-				BBF99DECAB123FD139A547D27187AAB6 /* UIImage+AlamofireImage.swift */,
-				D6EA7BF1655B11572E852653C587AA09 /* UIImageView+AlamofireImage.swift */,
-				EC072E55924D3DC84E044354C38483A1 /* Support Files */,
-			);
-			name = AlamofireImage;
-			path = AlamofireImage;
-			sourceTree = "<group>";
-		};
-		7B1277FCF4B31353B95CD176E6B465A2 /* Pods-Rekd Challenge */ = {
-			isa = PBXGroup;
-			children = (
-				BB61D88A24B0C82CCFA9144030ABE97B /* Pods-Rekd Challenge.modulemap */,
-				CDFE60E1A7E360D8E38B3EC759A997E9 /* Pods-Rekd Challenge-acknowledgements.markdown */,
-				56624C9793FA0CF077CAF4A0C7A9DC42 /* Pods-Rekd Challenge-acknowledgements.plist */,
-				29E4FD856503919DA4DD4F7329E651C7 /* Pods-Rekd Challenge-dummy.m */,
-				D609040C038FD5079625EE02F82C2B94 /* Pods-Rekd Challenge-frameworks.sh */,
-				CBC17E38E740844859721DF37C653BE4 /* Pods-Rekd Challenge-Info.plist */,
-				937625AFE960C162C30AD2100DFB188B /* Pods-Rekd Challenge-umbrella.h */,
-				81CFAAD30FB1F84BC239DF8B0A2EBE48 /* Pods-Rekd Challenge.debug.xcconfig */,
-				33DC2684A3A9F1B375FFF9A95327BFD8 /* Pods-Rekd Challenge.release.xcconfig */,
-			);
-			name = "Pods-Rekd Challenge";
-			path = "Target Support Files/Pods-Rekd Challenge";
-			sourceTree = "<group>";
-		};
-		9502B04D42909EAFD3DC1EF3F7217631 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */,
 				68B349F2AE72929F071E185167A4CACD /* Pods_Rekd_Challenge.framework */,
 				B9100ED077F04040573FEB5131B7D0C5 /* Pods_Rekd_Challenge_Rekd_ChallengeUITests.framework */,
 				B0EABF159F3185756305745B82104325 /* Pods_Rekd_ChallengeTests.framework */,
@@ -328,78 +132,67 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBC3668ACF66054110E0C2AE357D1452 /* Pods-Rekd Challenge-Rekd ChallengeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A089A65F70E87407F1E92BE3B72C070B /* Pods-Rekd Challenge-Rekd ChallengeUITests.modulemap */,
-				FB5CBDE2ED2425CD449A9F785657A930 /* Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.markdown */,
-				59100D85E2A61FA609F33F888825379E /* Pods-Rekd Challenge-Rekd ChallengeUITests-acknowledgements.plist */,
-				ABEB3A7AFE629C1EC7D1A78DAFF48129 /* Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m */,
-				6D916E15527980ED74F6F926D3CCEAA8 /* Pods-Rekd Challenge-Rekd ChallengeUITests-frameworks.sh */,
-				21372C93906319F14A10F385E052B905 /* Pods-Rekd Challenge-Rekd ChallengeUITests-Info.plist */,
-				F49E170CFE352266831D0509EAD532F4 /* Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h */,
-				C00E05124AD2CE27606EFE0CECB2A545 /* Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig */,
-				5BCD5BE320519651B4DD14B742159A37 /* Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig */,
-			);
-			name = "Pods-Rekd Challenge-Rekd ChallengeUITests";
-			path = "Target Support Files/Pods-Rekd Challenge-Rekd ChallengeUITests";
-			sourceTree = "<group>";
-		};
-		BCE988A47AA8D87E6A51113DA5D257CA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4C9DE0C4AE0F2B2170FCAB7317773B25 /* Alamofire */,
-				4EFCF33C3A7591280EDD315956A1A62A /* AlamofireImage */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2F2A6FCCD7293377A61DF5D10894ACF2 /* Frameworks */,
-				BCE988A47AA8D87E6A51113DA5D257CA /* Pods */,
-				9502B04D42909EAFD3DC1EF3F7217631 /* Products */,
-				F7D898FFFBBBD64FE051078F44AE4945 /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CD2A19BFB32DBB3F53B133F6852B97E9 /* Products */,
+				977FF6724AD4DCDD5FDEA9F23754C1E5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DBBD239EB7C1C83EA80124D1A53485AB /* iOS */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC072E55924D3DC84E044354C38483A1 /* Support Files */ = {
+		E8755E98C2003E0495B55ED8B1E35244 /* Pods-Rekd Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				5DA00FF9E330530AFC8DAFDF65BD641D /* AlamofireImage.modulemap */,
-				2829B6D20E7CC4B13DD121CB905B5B22 /* AlamofireImage.xcconfig */,
-				5CBD9F09A714D7E9B1AD4C56A7DF8F99 /* AlamofireImage-dummy.m */,
-				14A275D1E81A986F1DAB8BF732CAE004 /* AlamofireImage-Info.plist */,
-				110585212D0EA4A5CD074C5A47BBA900 /* AlamofireImage-prefix.pch */,
-				9385F07BB23DE9DCBF19C870EF638FFD /* AlamofireImage-umbrella.h */,
+				F77ADB494324459913CA291A7D48587E /* Pods-Rekd Challenge.modulemap */,
+				2DF5C445E9A309802E2AD295A0BE0C2B /* Pods-Rekd Challenge-acknowledgements.markdown */,
+				C5B4EC5AC3C1065A308192FCE1B57106 /* Pods-Rekd Challenge-acknowledgements.plist */,
+				B17FC8C8BEED6C78F6EE0E3387AF6F04 /* Pods-Rekd Challenge-dummy.m */,
+				10DD7799DEC5D7B91338F4EBA30F0781 /* Pods-Rekd Challenge-Info.plist */,
+				4FC3E5901C69D9F9F507BA82801489A0 /* Pods-Rekd Challenge-umbrella.h */,
+				A87131EDB5124DF8157F6B89E1225633 /* Pods-Rekd Challenge.debug.xcconfig */,
+				3657F9AF316EAA706522CB6F0115A296 /* Pods-Rekd Challenge.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AlamofireImage";
+			name = "Pods-Rekd Challenge";
+			path = "Target Support Files/Pods-Rekd Challenge";
 			sourceTree = "<group>";
 		};
-		F7D898FFFBBBD64FE051078F44AE4945 /* Targets Support Files */ = {
+		EC37237007D730D49D85EC02582428DF /* Pods-Rekd ChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				7B1277FCF4B31353B95CD176E6B465A2 /* Pods-Rekd Challenge */,
-				BBC3668ACF66054110E0C2AE357D1452 /* Pods-Rekd Challenge-Rekd ChallengeUITests */,
-				1398D19D371FCEA8D97A39EF35582F18 /* Pods-Rekd ChallengeTests */,
+				E4EA6F5569514CF18B630CB9540AD300 /* Pods-Rekd ChallengeTests.modulemap */,
+				60AC422C92B21581448338CE6546BB51 /* Pods-Rekd ChallengeTests-acknowledgements.markdown */,
+				518EC51CB85661481D49383DCE8DB960 /* Pods-Rekd ChallengeTests-acknowledgements.plist */,
+				F03E6C9AEDE58F22DD4EEB57CA94C9E1 /* Pods-Rekd ChallengeTests-dummy.m */,
+				3CC8D0D769D1BFF3AA45B3ED7378C356 /* Pods-Rekd ChallengeTests-Info.plist */,
+				7CB6286D79B44E00626DEFD6B4332A50 /* Pods-Rekd ChallengeTests-umbrella.h */,
+				67F69CFFC6847AD6BBFB948E12A0F2C9 /* Pods-Rekd ChallengeTests.debug.xcconfig */,
+				E46717B1EB3C4B3CAD354AC91D5E3ABB /* Pods-Rekd ChallengeTests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Rekd ChallengeTests";
+			path = "Target Support Files/Pods-Rekd ChallengeTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		142F4A0C3BA8182922720EF2C3C45678 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651761D434FF077AC17C69B4CF84453E /* Pods-Rekd Challenge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		217386F58B1EA159A94D47FB6D030B58 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,35 +201,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */ = {
+		78C398D50501E59680C8F02FAC4626F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E7EB2C87024B2D35F703732E2A42B17 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C74F467EE05992C5EE95FA46D4F1AD7 /* AlamofireImage-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9676F3F8F30CFBA6D0CC28E21D02FB4E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17B60B62EC7F5B838B8368BFD7AF010C /* Pods-Rekd Challenge-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AED701FAFAFD394F613BDFA73A211E49 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFD946B346C536F643FA136E9E83C364 /* Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h in Headers */,
+				35158739331A9A6B7D78C0DE3A5FBE87 /* Pods-Rekd Challenge-Rekd ChallengeUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,75 +233,34 @@
 		};
 		A824779F06D92033F779EFFC9A2AA94C /* Pods-Rekd Challenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D377CA46F26A18334BA6DFCE1635BA0 /* Build configuration list for PBXNativeTarget "Pods-Rekd Challenge" */;
+			buildConfigurationList = 20B6F755DCFAB0E816D07008C66E9D15 /* Build configuration list for PBXNativeTarget "Pods-Rekd Challenge" */;
 			buildPhases = (
-				9676F3F8F30CFBA6D0CC28E21D02FB4E /* Headers */,
-				B22D25C10B18981370D0EBD1EB6254C6 /* Sources */,
-				FA07F03033D46CEBD537256139B72A68 /* Frameworks */,
-				9107A9D1780B8EE99F4751F84FF219A3 /* Resources */,
+				142F4A0C3BA8182922720EF2C3C45678 /* Headers */,
+				4F005F69E79FD50BDBEC486711FD0F64 /* Sources */,
+				E51DAF7C29325F625A5D1907572642CE /* Frameworks */,
+				949A605BD9513F4CE2E4158575082E58 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5A6AFA9DBD40C0F77B88AA01D9AAF88 /* PBXTargetDependency */,
-				359B4A9D42625744380D122249CC5BDD /* PBXTargetDependency */,
 			);
 			name = "Pods-Rekd Challenge";
 			productName = "Pods-Rekd Challenge";
 			productReference = 68B349F2AE72929F071E185167A4CACD /* Pods_Rekd_Challenge.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1684E5826C7ADF77C9E720F7BC305540 /* Build configuration list for PBXNativeTarget "AlamofireImage" */;
-			buildPhases = (
-				6E7EB2C87024B2D35F703732E2A42B17 /* Headers */,
-				32F561C23D90FAA40C5F3A42B5CBC387 /* Sources */,
-				B68A80D165A6FC29DAEDE43A5F99F6C4 /* Frameworks */,
-				A7BCADE1EFE79A5054B56CC7EF00330A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1B3952F38A6F5FDE6C4F42767447055 /* PBXTargetDependency */,
-			);
-			name = AlamofireImage;
-			productName = AlamofireImage;
-			productReference = C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */;
-			buildPhases = (
-				2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */,
-				2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */,
-				090C1D63463ACF622287EFF9D5C9392D /* Frameworks */,
-				473D3E892ABB6C798CFF290644259B34 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Alamofire;
-			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		F46375CE32A267A5EE3593BBFBC191AB /* Pods-Rekd Challenge-Rekd ChallengeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3C87DA346A990E71B92F70C36B93529 /* Build configuration list for PBXNativeTarget "Pods-Rekd Challenge-Rekd ChallengeUITests" */;
+			buildConfigurationList = 588EB5BDE9A4934D1F300EBEA064DAF1 /* Build configuration list for PBXNativeTarget "Pods-Rekd Challenge-Rekd ChallengeUITests" */;
 			buildPhases = (
-				AED701FAFAFD394F613BDFA73A211E49 /* Headers */,
-				F359166F89002F01D44ED68176F8880A /* Sources */,
-				198CF77D256162AFCEBFA4494D5944DE /* Frameworks */,
-				4EA324B427234E5FEA92C3B85A06D930 /* Resources */,
+				78C398D50501E59680C8F02FAC4626F4 /* Headers */,
+				6CD43ECC11D1421DC088B38CDADD7B8D /* Sources */,
+				90CFDB7C98FAA008D7F6A5002E0DA7C9 /* Frameworks */,
+				D8B7133589FBF8FDD4969E54B1ACBAAB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DE3594DBCFBAD5F1316EAFE3AE22CADA /* PBXTargetDependency */,
-				B3B07B1B10676BF4D144CF1621A49390 /* PBXTargetDependency */,
 			);
 			name = "Pods-Rekd Challenge-Rekd ChallengeUITests";
 			productName = "Pods-Rekd Challenge-Rekd ChallengeUITests";
@@ -549,19 +277,17 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9502B04D42909EAFD3DC1EF3F7217631 /* Products */;
+			productRefGroup = CD2A19BFB32DBB3F53B133F6852B97E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
-				C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */,
 				A824779F06D92033F779EFFC9A2AA94C /* Pods-Rekd Challenge */,
 				F46375CE32A267A5EE3593BBFBC191AB /* Pods-Rekd Challenge-Rekd ChallengeUITests */,
 				6278B001291E5C28CD4C4C8E7579FB88 /* Pods-Rekd ChallengeTests */,
@@ -570,20 +296,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		473D3E892ABB6C798CFF290644259B34 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EA324B427234E5FEA92C3B85A06D930 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5D18BA0658DE2B182829353B25E326F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -591,14 +303,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9107A9D1780B8EE99F4751F84FF219A3 /* Resources */ = {
+		949A605BD9513F4CE2E4158575082E58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7BCADE1EFE79A5054B56CC7EF00330A /* Resources */ = {
+		D8B7133589FBF8FDD4969E54B1ACBAAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -608,53 +320,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */ = {
+		4F005F69E79FD50BDBEC486711FD0F64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */,
-				1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */,
-				BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */,
-				D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */,
-				1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */,
-				3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */,
-				132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */,
-				0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */,
-				98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */,
-				D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */,
-				E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */,
-				64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */,
-				F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */,
-				2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */,
-				931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */,
-				AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */,
-				933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */,
-				53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */,
+				3975396491539741C11613170C15D0AD /* Pods-Rekd Challenge-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32F561C23D90FAA40C5F3A42B5CBC387 /* Sources */ = {
+		6CD43ECC11D1421DC088B38CDADD7B8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B35221A8D4FF492A4FA00243479129D5 /* AFIError.swift in Sources */,
-				5E3FE24F26AE535303A47488BE8188E2 /* AlamofireImage-dummy.m in Sources */,
-				9A56D2C6A0B6DAB2907A16166E5E171E /* Image.swift in Sources */,
-				4AC71683BB84DFAE3F0FCD5FF5A7AC7C /* ImageCache.swift in Sources */,
-				58880A0E11955B8BE86FD35CDD8AE929 /* ImageDownloader.swift in Sources */,
-				75C7A60D8FA8F39F14599593E137981C /* ImageFilter.swift in Sources */,
-				95B80BC903B154BC90EE86A67C680FBF /* Request+AlamofireImage.swift in Sources */,
-				134D6A079CE56DA8A363F1822AE7B55C /* UIButton+AlamofireImage.swift in Sources */,
-				8CD7EC0291E44E17C63D50ED625F7786 /* UIImage+AlamofireImage.swift in Sources */,
-				16A283C1AC8B70DB06BE7F5E9BEDDAB5 /* UIImageView+AlamofireImage.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B22D25C10B18981370D0EBD1EB6254C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				496CF5D04438901051F55A4540842073 /* Pods-Rekd Challenge-dummy.m in Sources */,
+				D56F2CC5E3B7F79EF76F97A8AAE1AE76 /* Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,95 +344,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F359166F89002F01D44ED68176F8880A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7324E974E688AAC4EE4D8C6185E63C21 /* Pods-Rekd Challenge-Rekd ChallengeUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		359B4A9D42625744380D122249CC5BDD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AlamofireImage;
-			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
-			targetProxy = 5CA04AA9F54E84D3258149C65CF4F91A /* PBXContainerItemProxy */;
-		};
 		A80AD9F6675F373DBD2A1A3A02855AEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Rekd Challenge";
 			target = A824779F06D92033F779EFFC9A2AA94C /* Pods-Rekd Challenge */;
 			targetProxy = DD23F34FDA1E486DF31C1A1F07B9BD0D /* PBXContainerItemProxy */;
 		};
-		B3B07B1B10676BF4D144CF1621A49390 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AlamofireImage;
-			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
-			targetProxy = 61ED7C12C78B21F04C4FEBF0C376E4D7 /* PBXContainerItemProxy */;
-		};
-		B5A6AFA9DBD40C0F77B88AA01D9AAF88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 40657EB060E5321A27DE25DB2F61D493 /* PBXContainerItemProxy */;
-		};
-		DE3594DBCFBAD5F1316EAFE3AE22CADA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = D3865EE64EFC77C38308D808AE92C719 /* PBXContainerItemProxy */;
-		};
-		E1B3952F38A6F5FDE6C4F42767447055 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 627DDEA84FE71197B99A9FB8741B48EF /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0066CA0C1BBAF9C236271BD5BB6E167F /* Release */ = {
+		0CAF77E8F3C5308A9069E0FD1FF45620 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2829B6D20E7CC4B13DD121CB905B5B22 /* AlamofireImage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage/AlamofireImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlamofireImage/AlamofireImage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
-				PRODUCT_MODULE_NAME = AlamofireImage;
-				PRODUCT_NAME = AlamofireImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		20D338CA13E2B2C9ADA93AC27BE8D510 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C00E05124AD2CE27606EFE0CECB2A545 /* Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig */;
+			baseConfigurationReference = 8031C6107CF63C4FA474161546D2BEF6 /* Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -790,82 +394,9 @@
 			};
 			name = Debug;
 		};
-		222A34D8DCC20E6A656574991A24609B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2829B6D20E7CC4B13DD121CB905B5B22 /* AlamofireImage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage/AlamofireImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlamofireImage/AlamofireImage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
-				PRODUCT_MODULE_NAME = AlamofireImage;
-				PRODUCT_NAME = AlamofireImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		450D96B1945B5E8C9E3DE0005122BA67 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81CFAAD30FB1F84BC239DF8B0A2EBE48 /* Pods-Rekd Challenge.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Rekd Challenge/Pods-Rekd Challenge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Rekd Challenge/Pods-Rekd Challenge.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		47BD5F9E9F765C57D61216AC050568CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37C8B1B7BE4E600F0A7754E9A98A3EE8 /* Pods-Rekd ChallengeTests.debug.xcconfig */;
+			baseConfigurationReference = 67F69CFFC6847AD6BBFB948E12A0F2C9 /* Pods-Rekd ChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -903,7 +434,7 @@
 		};
 		544256C6F146576E344D90E05E04D845 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82628580337A910B11563FE6FCA10497 /* Pods-Rekd ChallengeTests.release.xcconfig */;
+			baseConfigurationReference = E46717B1EB3C4B3CAD354AC91D5E3ABB /* Pods-Rekd ChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1004,44 +535,9 @@
 			};
 			name = Debug;
 		};
-		75BBB760DFD877E344322B54D29DFE64 /* Debug */ = {
+		818AA3B89B5ADF937306BEA1C088067A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF5220A710919953FD8E54BD862FB5D8 /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		90687495F59E8E994CB0C0427244676B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BCD5BE320519651B4DD14B742159A37 /* Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig */;
+			baseConfigurationReference = EBA0E2BC44F20AFA8627D103F3E5F83A /* Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1138,9 +634,9 @@
 			};
 			name = Release;
 		};
-		C19B0D2A8C4862C0A26DF2A4BD2AC0B7 /* Release */ = {
+		D5C06D0935B1BAA46796E15CF889ACB6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33DC2684A3A9F1B375FFF9A95327BFD8 /* Pods-Rekd Challenge.release.xcconfig */;
+			baseConfigurationReference = 3657F9AF316EAA706522CB6F0115A296 /* Pods-Rekd Challenge.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1177,10 +673,12 @@
 			};
 			name = Release;
 		};
-		F94FD07C591B17B7E61A1528AB9BCB3B /* Release */ = {
+		FFC0F0C03B240D53B65CA83C9C4F9543 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF5220A710919953FD8E54BD862FB5D8 /* Alamofire.xcconfig */;
+			baseConfigurationReference = A87131EDB5124DF8157F6B89E1225633 /* Pods-Rekd Challenge.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1190,37 +688,37 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rekd Challenge/Pods-Rekd Challenge-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rekd Challenge/Pods-Rekd Challenge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1684E5826C7ADF77C9E720F7BC305540 /* Build configuration list for PBXNativeTarget "AlamofireImage" */ = {
+		20B6F755DCFAB0E816D07008C66E9D15 /* Build configuration list for PBXNativeTarget "Pods-Rekd Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				222A34D8DCC20E6A656574991A24609B /* Debug */,
-				0066CA0C1BBAF9C236271BD5BB6E167F /* Release */,
+				FFC0F0C03B240D53B65CA83C9C4F9543 /* Debug */,
+				D5C06D0935B1BAA46796E15CF889ACB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1243,29 +741,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D377CA46F26A18334BA6DFCE1635BA0 /* Build configuration list for PBXNativeTarget "Pods-Rekd Challenge" */ = {
+		588EB5BDE9A4934D1F300EBEA064DAF1 /* Build configuration list for PBXNativeTarget "Pods-Rekd Challenge-Rekd ChallengeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				450D96B1945B5E8C9E3DE0005122BA67 /* Debug */,
-				C19B0D2A8C4862C0A26DF2A4BD2AC0B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B3C87DA346A990E71B92F70C36B93529 /* Build configuration list for PBXNativeTarget "Pods-Rekd Challenge-Rekd ChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				20D338CA13E2B2C9ADA93AC27BE8D510 /* Debug */,
-				90687495F59E8E994CB0C0427244676B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75BBB760DFD877E344322B54D29DFE64 /* Debug */,
-				F94FD07C591B17B7E61A1528AB9BCB3B /* Release */,
+				0CAF77E8F3C5308A9069E0FD1FF45620 /* Debug */,
+				818AA3B89B5ADF937306BEA1C088067A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -15,7 +15,6 @@ class ImageCollectionViewCell: UICollectionViewCell {
     override func prepareForReuse() {
         super.prepareForReuse()
         imageView.image = nil
-        imageView.af_cancelImageRequest()
         imageView.layer.sublayers = nil
     }
 

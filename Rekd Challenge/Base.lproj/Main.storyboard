@@ -17,25 +17,10 @@
                     <view key="view" contentMode="scaleToFill" id="Jtg-Zy-PDm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the Rekd iOS Technical Challenge" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgP-DQ-TUe">
-                                <rect key="frame" x="107" y="382" width="200" height="93.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="lnc-29-DmP"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="RgP-DQ-TUe" firstAttribute="centerX" secondItem="wOL-VZ-OKg" secondAttribute="centerX" id="1hX-Sa-1tv"/>
-                            <constraint firstItem="RgP-DQ-TUe" firstAttribute="centerY" secondItem="wOL-VZ-OKg" secondAttribute="centerY" id="6Jm-5K-MGK"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="wOL-VZ-OKg"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Chat" image="Chat" id="tYM-N3-NSX"/>
+                    <tabBarItem key="tabBarItem" title="Chat" image="FilmReel" id="tYM-N3-NSX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o2h-X6-RZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -101,7 +86,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="YPh-Kw-QWY">
-                                <rect key="frame" x="132" y="354.5" width="150" height="187.00000000000045"/>
+                                <rect key="frame" x="132" y="354.5" width="150" height="187"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="187" id="Cth-lv-oiy"/>
                                     <constraint firstAttribute="width" constant="150" id="IZy-IE-Xop"/>
@@ -125,7 +110,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Chat" width="18" height="18"/>
+        <image name="FilmReel" width="24" height="24"/>
         <image name="LaunchScreenLogo" width="1250" height="1561.5"/>
         <image name="Profile" width="24" height="24"/>
     </resources>

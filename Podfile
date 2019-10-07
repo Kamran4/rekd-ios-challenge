@@ -6,8 +6,6 @@ target 'Rekd Challenge' do
   use_frameworks!
 
   # Pods for Rekd Challenge
-  pod 'Alamofire'
-  pod 'AlamofireImage'
 
   target 'Rekd ChallengeTests' do
     inherit! :search_paths
