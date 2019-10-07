@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3C632C3C0651E92B6AB610 /* Pods_Rekd_Challenge_Rekd_ChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E562B11281A458F2B5A4E7C /* Pods_Rekd_Challenge_Rekd_ChallengeUITests.framework */; };
+		621460C8234BC92700060622 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621460C7234BC92700060622 /* Launch Screen.storyboard */; };
+		621460CA234BD43A00060622 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621460C9234BD43A00060622 /* ProfileViewController.swift */; };
+		621460CC234BE89B00060622 /* CustomImageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621460CB234BE89B00060622 /* CustomImageFlowLayout.swift */; };
+		621460CE234BE9C100060622 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621460CD234BE9C100060622 /* ImageCollectionViewCell.swift */; };
+		621460D0234BEECD00060622 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621460CF234BEECD00060622 /* Constants.swift */; };
 		623F0C4F234BAF6600823E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F0C4E234BAF6600823E7C /* AppDelegate.swift */; };
 		623F0C51234BAF6600823E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F0C50234BAF6600823E7C /* ViewController.swift */; };
 		623F0C54234BAF6600823E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623F0C52234BAF6600823E7C /* Main.storyboard */; };
@@ -15,6 +21,10 @@
 		623F0C5C234BAF6900823E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623F0C5A234BAF6900823E7C /* LaunchScreen.storyboard */; };
 		623F0C67234BAF6900823E7C /* Rekd_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F0C66234BAF6900823E7C /* Rekd_ChallengeTests.swift */; };
 		623F0C72234BAF6900823E7C /* Rekd_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F0C71234BAF6900823E7C /* Rekd_ChallengeUITests.swift */; };
+		623F0C80234BB24900823E7C /* InterstitialLaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F0C7F234BB24800823E7C /* InterstitialLaunchController.swift */; };
+		623F0C82234BB91E00823E7C /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623F0C81234BB91E00823E7C /* UserProfile.storyboard */; };
+		9136A7911211D4D2832771D9 /* Pods_Rekd_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E6B5718122C57581D6235E /* Pods_Rekd_ChallengeTests.framework */; };
+		C8186B28A32BB8E39B69C23D /* Pods_Rekd_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B501E258D1452FC752488982 /* Pods_Rekd_Challenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		198EBBF7802B8B2D487B0495 /* Pods-Rekd ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rekd ChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-Rekd ChallengeTests/Pods-Rekd ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D18D03F9DD28F99C7FEE59B /* Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-Rekd Challenge-Rekd ChallengeUITests/Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A77B337FE8B1FEC78EFF824 /* Pods-Rekd Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rekd Challenge.release.xcconfig"; path = "Target Support Files/Pods-Rekd Challenge/Pods-Rekd Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		3E562B11281A458F2B5A4E7C /* Pods_Rekd_Challenge_Rekd_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rekd_Challenge_Rekd_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		621460C7234BC92700060622 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		621460C9234BD43A00060622 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		621460CB234BE89B00060622 /* CustomImageFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageFlowLayout.swift; sourceTree = "<group>"; };
+		621460CD234BE9C100060622 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		621460CF234BEECD00060622 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		623F0C4B234BAF6600823E7C /* Rekd Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rekd Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		623F0C4E234BAF6600823E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		623F0C50234BAF6600823E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +68,13 @@
 		623F0C6D234BAF6900823E7C /* Rekd ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rekd ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		623F0C71234BAF6900823E7C /* Rekd_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rekd_ChallengeUITests.swift; sourceTree = "<group>"; };
 		623F0C73234BAF6900823E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623F0C7F234BB24800823E7C /* InterstitialLaunchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialLaunchController.swift; sourceTree = "<group>"; };
+		623F0C81234BB91E00823E7C /* UserProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserProfile.storyboard; sourceTree = "<group>"; };
+		7B9EDA9334AA5D6A3D7BA1E5 /* Pods-Rekd Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rekd Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Rekd Challenge/Pods-Rekd Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		87BA9DC40362F1A0EFFD09C4 /* Pods-Rekd ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rekd ChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-Rekd ChallengeTests/Pods-Rekd ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B501E258D1452FC752488982 /* Pods_Rekd_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rekd_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E6B5718122C57581D6235E /* Pods_Rekd_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rekd_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40003F235ED58A0C19FFD58 /* Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Rekd Challenge-Rekd ChallengeUITests/Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8186B28A32BB8E39B69C23D /* Pods_Rekd_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9136A7911211D4D2832771D9 /* Pods_Rekd_ChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3C632C3C0651E92B6AB610 /* Pods_Rekd_Challenge_Rekd_ChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +112,8 @@
 				623F0C65234BAF6900823E7C /* Rekd ChallengeTests */,
 				623F0C70234BAF6900823E7C /* Rekd ChallengeUITests */,
 				623F0C4C234BAF6600823E7C /* Products */,
+				E81575F1BB83598DAE645A40 /* Pods */,
+				9658AF5999429B1E68BCF1B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +131,19 @@
 			isa = PBXGroup;
 			children = (
 				623F0C4E234BAF6600823E7C /* AppDelegate.swift */,
+				621460CF234BEECD00060622 /* Constants.swift */,
+				621460CB234BE89B00060622 /* CustomImageFlowLayout.swift */,
 				623F0C50234BAF6600823E7C /* ViewController.swift */,
 				623F0C52234BAF6600823E7C /* Main.storyboard */,
+				623F0C7F234BB24800823E7C /* InterstitialLaunchController.swift */,
+				621460C7234BC92700060622 /* Launch Screen.storyboard */,
 				623F0C58234BAF6900823E7C /* Assets.xcassets */,
 				623F0C5A234BAF6900823E7C /* LaunchScreen.storyboard */,
 				623F0C5D234BAF6900823E7C /* Info.plist */,
+				621460C9234BD43A00060622 /* ProfileViewController.swift */,
+				621460CD234BE9C100060622 /* ImageCollectionViewCell.swift */,
 				623F0C55234BAF6600823E7C /* Rekd_Challenge.xcdatamodeld */,
+				623F0C81234BB91E00823E7C /* UserProfile.storyboard */,
 			);
 			path = "Rekd Challenge";
 			sourceTree = "<group>";
@@ -128,6 +166,29 @@
 			path = "Rekd ChallengeUITests";
 			sourceTree = "<group>";
 		};
+		9658AF5999429B1E68BCF1B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B501E258D1452FC752488982 /* Pods_Rekd_Challenge.framework */,
+				3E562B11281A458F2B5A4E7C /* Pods_Rekd_Challenge_Rekd_ChallengeUITests.framework */,
+				B6E6B5718122C57581D6235E /* Pods_Rekd_ChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81575F1BB83598DAE645A40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B9EDA9334AA5D6A3D7BA1E5 /* Pods-Rekd Challenge.debug.xcconfig */,
+				2A77B337FE8B1FEC78EFF824 /* Pods-Rekd Challenge.release.xcconfig */,
+				F40003F235ED58A0C19FFD58 /* Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig */,
+				1D18D03F9DD28F99C7FEE59B /* Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig */,
+				87BA9DC40362F1A0EFFD09C4 /* Pods-Rekd ChallengeTests.debug.xcconfig */,
+				198EBBF7802B8B2D487B0495 /* Pods-Rekd ChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 623F0C76234BAF6900823E7C /* Build configuration list for PBXNativeTarget "Rekd Challenge" */;
 			buildPhases = (
+				8A612398D851C0B78AA3F6D7 /* [CP] Check Pods Manifest.lock */,
 				623F0C47234BAF6600823E7C /* Sources */,
 				623F0C48234BAF6600823E7C /* Frameworks */,
 				623F0C49234BAF6600823E7C /* Resources */,
+				3992F0D29EFA6C4A86336AD9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 623F0C79234BAF6900823E7C /* Build configuration list for PBXNativeTarget "Rekd ChallengeTests" */;
 			buildPhases = (
+				1ACBE4C1E71A2BFBC1D01252 /* [CP] Check Pods Manifest.lock */,
 				623F0C5E234BAF6900823E7C /* Sources */,
 				623F0C5F234BAF6900823E7C /* Frameworks */,
 				623F0C60234BAF6900823E7C /* Resources */,
@@ -170,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 623F0C7C234BAF6900823E7C /* Build configuration list for PBXNativeTarget "Rekd ChallengeUITests" */;
 			buildPhases = (
+				71DDF7E8735D96748FC3B27C /* [CP] Check Pods Manifest.lock */,
 				623F0C69234BAF6900823E7C /* Sources */,
 				623F0C6A234BAF6900823E7C /* Frameworks */,
 				623F0C6B234BAF6900823E7C /* Resources */,
+				C9B5B2C967E29EE110EF6441 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				623F0C5C234BAF6900823E7C /* LaunchScreen.storyboard in Resources */,
+				623F0C82234BB91E00823E7C /* UserProfile.storyboard in Resources */,
 				623F0C59234BAF6900823E7C /* Assets.xcassets in Resources */,
+				621460C8234BC92700060622 /* Launch Screen.storyboard in Resources */,
 				623F0C54234BAF6600823E7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +322,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ACBE4C1E71A2BFBC1D01252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rekd ChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3992F0D29EFA6C4A86336AD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rekd Challenge/Pods-Rekd Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rekd Challenge/Pods-Rekd Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rekd Challenge/Pods-Rekd Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71DDF7E8735D96748FC3B27C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rekd Challenge-Rekd ChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A612398D851C0B78AA3F6D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rekd Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B5B2C967E29EE110EF6441 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rekd Challenge-Rekd ChallengeUITests/Pods-Rekd Challenge-Rekd ChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rekd Challenge-Rekd ChallengeUITests/Pods-Rekd Challenge-Rekd ChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rekd Challenge-Rekd ChallengeUITests/Pods-Rekd Challenge-Rekd ChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		623F0C47234BAF6600823E7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621460CC234BE89B00060622 /* CustomImageFlowLayout.swift in Sources */,
+				623F0C80234BB24900823E7C /* InterstitialLaunchController.swift in Sources */,
 				623F0C51234BAF6600823E7C /* ViewController.swift in Sources */,
+				621460CE234BE9C100060622 /* ImageCollectionViewCell.swift in Sources */,
+				621460CA234BD43A00060622 /* ProfileViewController.swift in Sources */,
 				623F0C57234BAF6600823E7C /* Rekd_Challenge.xcdatamodeld in Sources */,
 				623F0C4F234BAF6600823E7C /* AppDelegate.swift in Sources */,
+				621460D0234BEECD00060622 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +610,7 @@
 		};
 		623F0C77234BAF6900823E7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9EDA9334AA5D6A3D7BA1E5 /* Pods-Rekd Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +628,7 @@
 		};
 		623F0C78234BAF6900823E7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A77B337FE8B1FEC78EFF824 /* Pods-Rekd Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +646,7 @@
 		};
 		623F0C7A234BAF6900823E7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BA9DC40362F1A0EFFD09C4 /* Pods-Rekd ChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +667,7 @@
 		};
 		623F0C7B234BAF6900823E7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198EBBF7802B8B2D487B0495 /* Pods-Rekd ChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +688,7 @@
 		};
 		623F0C7D234BAF6900823E7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40003F235ED58A0C19FFD58 /* Pods-Rekd Challenge-Rekd ChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +708,7 @@
 		};
 		623F0C7E234BAF6900823E7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D18D03F9DD28F99C7FEE59B /* Pods-Rekd Challenge-Rekd ChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

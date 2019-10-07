@@ -1,24 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zlT-PF-z42">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Chat-->
+        <scene sceneID="NBd-Vv-Uht">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="B9T-qb-WhX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jtg-Zy-PDm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the Rekd iOS Technical Challenge" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgP-DQ-TUe">
+                                <rect key="frame" x="107" y="382" width="200" height="93.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="lnc-29-DmP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RgP-DQ-TUe" firstAttribute="centerX" secondItem="wOL-VZ-OKg" secondAttribute="centerX" id="1hX-Sa-1tv"/>
+                            <constraint firstItem="RgP-DQ-TUe" firstAttribute="centerY" secondItem="wOL-VZ-OKg" secondAttribute="centerY" id="6Jm-5K-MGK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wOL-VZ-OKg"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Chat" image="Chat" id="tYM-N3-NSX"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o2h-X6-RZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1935" y="869"/>
+        </scene>
+        <!--UserProfile-->
+        <scene sceneID="7Re-HQ-b16">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UserProfile" id="78q-o1-kAQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="NvP-Jb-Snp"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uZF-cE-bjz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2659" y="138"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="y7V-Gt-TEo">
+            <objects>
+                <navigationController id="lDh-yK-hQB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="Profile" id="X5U-iG-1bh"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2Ta-ka-UFV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="78q-o1-kAQ" kind="relationship" relationship="rootViewController" id="t5N-Fg-VLW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y3X-Fy-OcA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1935" y="138"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Xnt-zo-6EY">
+            <objects>
+                <tabBarController id="YRv-RD-tiz" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" shadowImage="LaunchScreenLogo" id="HBB-Pa-bEN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <color key="tintColor" red="1" green="0.32941176470588235" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lDh-yK-hQB" kind="relationship" relationship="viewControllers" id="5GI-A2-pDK"/>
+                        <segue destination="B9T-qb-WhX" kind="relationship" relationship="viewControllers" id="dGF-cB-6UK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b5i-kS-zvk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1022" y="138"/>
+        </scene>
+        <!--Interstitial Launch Controller-->
+        <scene sceneID="bTJ-Id-OAz">
+            <objects>
+                <viewController storyboardIdentifier="InterstitialLaunchController" hidesBottomBarWhenPushed="YES" id="zlT-PF-z42" customClass="InterstitialLaunchController" customModule="Rekd_Challenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GOY-Gy-LkL"/>
+                        <viewControllerLayoutGuide type="bottom" id="hwq-8m-njL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="82h-7W-xeA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="YPh-Kw-QWY">
+                                <rect key="frame" x="132" y="354.5" width="150" height="187.00000000000045"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="187" id="Cth-lv-oiy"/>
+                                    <constraint firstAttribute="width" constant="150" id="IZy-IE-Xop"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.3294117647" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YPh-Kw-QWY" firstAttribute="centerY" secondItem="82h-7W-xeA" secondAttribute="centerY" id="F5Q-4y-WF1"/>
+                            <constraint firstItem="YPh-Kw-QWY" firstAttribute="centerX" secondItem="82h-7W-xeA" secondAttribute="centerX" id="l8L-A3-vUd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cHY-es-DMd"/>
+                    </view>
+                    <connections>
+                        <segue destination="YRv-RD-tiz" kind="show" identifier="LoggedInSegue" id="Pkg-MO-dFg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5tJ-y3-5Yx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="90" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Chat" width="18" height="18"/>
+        <image name="LaunchScreenLogo" width="1250" height="1561.5"/>
+        <image name="Profile" width="24" height="24"/>
+    </resources>
 </document>
