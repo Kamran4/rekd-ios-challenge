@@ -8,7 +8,7 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
     @IBOutlet weak var collectionView: UICollectionView!
     var collectionViewLayout: CustomImageFlowLayout!
     var indexForTitleDetails = 0
-    var titleData: [String] = []
+    var imageData: [String] = []
     let characterBio: [String: String] = ["name": "Son Goku", "Race": "Saiyan", "Favorite food": "Everything", "About": "Originally named Kakarot, Goku is born a member of a race of extraterrestrials called the Saiyans."]
     
     override func viewDidLoad() {
@@ -30,7 +30,7 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return titleData.count
+        return imageData.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -38,7 +38,7 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
         
         DispatchQueue.main.async {
             let index: Int = indexPath.max()!
-            let url = self.titleData[index]
+            let url = self.imageData[index]
 
             cell.imageView.af_setImage(withURL: URL(string: url)!)
             
@@ -67,12 +67,12 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
                 if let json = response.result.value, let jObject = json as? [String: Any] {
                     DispatchQueue.main.async {
                         print(json)
-                        let titles = jObject["pictures"] as? NSArray
-                        self.titleData.removeAll()
+                        let pictureObj = jObject["pictures"] as? NSArray
+                        self.imageData.removeAll()
                         
-                        for title in titles! {
-                            let titleObj = title as? [String: Any]
-                            self.titleData.append(titleObj?["large"] as! String)
+                        for picture in pictureObj! {
+                            let pictureData = picture as? [String: Any]
+                            self.imageData.append(pictureData?["large"] as! String)
                         }
                         self.collectionView.reloadData()
                     }
