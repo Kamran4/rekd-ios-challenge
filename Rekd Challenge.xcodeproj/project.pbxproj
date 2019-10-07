@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		623F0C4F234BAF6600823E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F0C4E234BAF6600823E7C /* AppDelegate.swift */; };
+		623F0C51234BAF6600823E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F0C50234BAF6600823E7C /* ViewController.swift */; };
+		623F0C54234BAF6600823E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623F0C52234BAF6600823E7C /* Main.storyboard */; };
+		623F0C57234BAF6600823E7C /* Rekd_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 623F0C55234BAF6600823E7C /* Rekd_Challenge.xcdatamodeld */; };
+		623F0C59234BAF6900823E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623F0C58234BAF6900823E7C /* Assets.xcassets */; };
+		623F0C5C234BAF6900823E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623F0C5A234BAF6900823E7C /* LaunchScreen.storyboard */; };
+		623F0C67234BAF6900823E7C /* Rekd_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F0C66234BAF6900823E7C /* Rekd_ChallengeTests.swift */; };
+		623F0C72234BAF6900823E7C /* Rekd_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F0C71234BAF6900823E7C /* Rekd_ChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		623F0C63234BAF6900823E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 623F0C43234BAF6600823E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 623F0C4A234BAF6600823E7C;
+			remoteInfo = "Rekd Challenge";
+		};
+		623F0C6E234BAF6900823E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 623F0C43234BAF6600823E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 623F0C4A234BAF6600823E7C;
+			remoteInfo = "Rekd Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		623F0C4B234BAF6600823E7C /* Rekd Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rekd Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		623F0C4E234BAF6600823E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		623F0C50234BAF6600823E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		623F0C53234BAF6600823E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		623F0C56234BAF6600823E7C /* Rekd_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rekd_Challenge.xcdatamodel; sourceTree = "<group>"; };
+		623F0C58234BAF6900823E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		623F0C5B234BAF6900823E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		623F0C5D234BAF6900823E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623F0C62234BAF6900823E7C /* Rekd ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rekd ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		623F0C66234BAF6900823E7C /* Rekd_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rekd_ChallengeTests.swift; sourceTree = "<group>"; };
+		623F0C68234BAF6900823E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623F0C6D234BAF6900823E7C /* Rekd ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rekd ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		623F0C71234BAF6900823E7C /* Rekd_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rekd_ChallengeUITests.swift; sourceTree = "<group>"; };
+		623F0C73234BAF6900823E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		623F0C48234BAF6600823E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623F0C5F234BAF6900823E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623F0C6A234BAF6900823E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		623F0C42234BAF6600823E7C = {
+			isa = PBXGroup;
+			children = (
+				623F0C4D234BAF6600823E7C /* Rekd Challenge */,
+				623F0C65234BAF6900823E7C /* Rekd ChallengeTests */,
+				623F0C70234BAF6900823E7C /* Rekd ChallengeUITests */,
+				623F0C4C234BAF6600823E7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		623F0C4C234BAF6600823E7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				623F0C4B234BAF6600823E7C /* Rekd Challenge.app */,
+				623F0C62234BAF6900823E7C /* Rekd ChallengeTests.xctest */,
+				623F0C6D234BAF6900823E7C /* Rekd ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		623F0C4D234BAF6600823E7C /* Rekd Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				623F0C4E234BAF6600823E7C /* AppDelegate.swift */,
+				623F0C50234BAF6600823E7C /* ViewController.swift */,
+				623F0C52234BAF6600823E7C /* Main.storyboard */,
+				623F0C58234BAF6900823E7C /* Assets.xcassets */,
+				623F0C5A234BAF6900823E7C /* LaunchScreen.storyboard */,
+				623F0C5D234BAF6900823E7C /* Info.plist */,
+				623F0C55234BAF6600823E7C /* Rekd_Challenge.xcdatamodeld */,
+			);
+			path = "Rekd Challenge";
+			sourceTree = "<group>";
+		};
+		623F0C65234BAF6900823E7C /* Rekd ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				623F0C66234BAF6900823E7C /* Rekd_ChallengeTests.swift */,
+				623F0C68234BAF6900823E7C /* Info.plist */,
+			);
+			path = "Rekd ChallengeTests";
+			sourceTree = "<group>";
+		};
+		623F0C70234BAF6900823E7C /* Rekd ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				623F0C71234BAF6900823E7C /* Rekd_ChallengeUITests.swift */,
+				623F0C73234BAF6900823E7C /* Info.plist */,
+			);
+			path = "Rekd ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		623F0C4A234BAF6600823E7C /* Rekd Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623F0C76234BAF6900823E7C /* Build configuration list for PBXNativeTarget "Rekd Challenge" */;
+			buildPhases = (
+				623F0C47234BAF6600823E7C /* Sources */,
+				623F0C48234BAF6600823E7C /* Frameworks */,
+				623F0C49234BAF6600823E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rekd Challenge";
+			productName = "Rekd Challenge";
+			productReference = 623F0C4B234BAF6600823E7C /* Rekd Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		623F0C61234BAF6900823E7C /* Rekd ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623F0C79234BAF6900823E7C /* Build configuration list for PBXNativeTarget "Rekd ChallengeTests" */;
+			buildPhases = (
+				623F0C5E234BAF6900823E7C /* Sources */,
+				623F0C5F234BAF6900823E7C /* Frameworks */,
+				623F0C60234BAF6900823E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623F0C64234BAF6900823E7C /* PBXTargetDependency */,
+			);
+			name = "Rekd ChallengeTests";
+			productName = "Rekd ChallengeTests";
+			productReference = 623F0C62234BAF6900823E7C /* Rekd ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		623F0C6C234BAF6900823E7C /* Rekd ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623F0C7C234BAF6900823E7C /* Build configuration list for PBXNativeTarget "Rekd ChallengeUITests" */;
+			buildPhases = (
+				623F0C69234BAF6900823E7C /* Sources */,
+				623F0C6A234BAF6900823E7C /* Frameworks */,
+				623F0C6B234BAF6900823E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623F0C6F234BAF6900823E7C /* PBXTargetDependency */,
+			);
+			name = "Rekd ChallengeUITests";
+			productName = "Rekd ChallengeUITests";
+			productReference = 623F0C6D234BAF6900823E7C /* Rekd ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		623F0C43234BAF6600823E7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Rekd Inc.";
+				TargetAttributes = {
+					623F0C4A234BAF6600823E7C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					623F0C61234BAF6900823E7C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 623F0C4A234BAF6600823E7C;
+					};
+					623F0C6C234BAF6900823E7C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 623F0C4A234BAF6600823E7C;
+					};
+				};
+			};
+			buildConfigurationList = 623F0C46234BAF6600823E7C /* Build configuration list for PBXProject "Rekd Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 623F0C42234BAF6600823E7C;
+			productRefGroup = 623F0C4C234BAF6600823E7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				623F0C4A234BAF6600823E7C /* Rekd Challenge */,
+				623F0C61234BAF6900823E7C /* Rekd ChallengeTests */,
+				623F0C6C234BAF6900823E7C /* Rekd ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		623F0C49234BAF6600823E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623F0C5C234BAF6900823E7C /* LaunchScreen.storyboard in Resources */,
+				623F0C59234BAF6900823E7C /* Assets.xcassets in Resources */,
+				623F0C54234BAF6600823E7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623F0C60234BAF6900823E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623F0C6B234BAF6900823E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		623F0C47234BAF6600823E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623F0C51234BAF6600823E7C /* ViewController.swift in Sources */,
+				623F0C57234BAF6600823E7C /* Rekd_Challenge.xcdatamodeld in Sources */,
+				623F0C4F234BAF6600823E7C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623F0C5E234BAF6900823E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623F0C67234BAF6900823E7C /* Rekd_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623F0C69234BAF6900823E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623F0C72234BAF6900823E7C /* Rekd_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		623F0C64234BAF6900823E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 623F0C4A234BAF6600823E7C /* Rekd Challenge */;
+			targetProxy = 623F0C63234BAF6900823E7C /* PBXContainerItemProxy */;
+		};
+		623F0C6F234BAF6900823E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 623F0C4A234BAF6600823E7C /* Rekd Challenge */;
+			targetProxy = 623F0C6E234BAF6900823E7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		623F0C52234BAF6600823E7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				623F0C53234BAF6600823E7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		623F0C5A234BAF6900823E7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				623F0C5B234BAF6900823E7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		623F0C74234BAF6900823E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		623F0C75234BAF6900823E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		623F0C77234BAF6900823E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rekd Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.rekd.Rekd-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		623F0C78234BAF6900823E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rekd Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.rekd.Rekd-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		623F0C7A234BAF6900823E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rekd ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.rekd.Rekd-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rekd Challenge.app/Rekd Challenge";
+			};
+			name = Debug;
+		};
+		623F0C7B234BAF6900823E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rekd ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.rekd.Rekd-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rekd Challenge.app/Rekd Challenge";
+			};
+			name = Release;
+		};
+		623F0C7D234BAF6900823E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rekd ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.rekd.Rekd-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rekd Challenge";
+			};
+			name = Debug;
+		};
+		623F0C7E234BAF6900823E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rekd ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.rekd.Rekd-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rekd Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		623F0C46234BAF6600823E7C /* Build configuration list for PBXProject "Rekd Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623F0C74234BAF6900823E7C /* Debug */,
+				623F0C75234BAF6900823E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623F0C76234BAF6900823E7C /* Build configuration list for PBXNativeTarget "Rekd Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623F0C77234BAF6900823E7C /* Debug */,
+				623F0C78234BAF6900823E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623F0C79234BAF6900823E7C /* Build configuration list for PBXNativeTarget "Rekd ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623F0C7A234BAF6900823E7C /* Debug */,
+				623F0C7B234BAF6900823E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623F0C7C234BAF6900823E7C /* Build configuration list for PBXNativeTarget "Rekd ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623F0C7D234BAF6900823E7C /* Debug */,
+				623F0C7E234BAF6900823E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		623F0C55234BAF6600823E7C /* Rekd_Challenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				623F0C56234BAF6600823E7C /* Rekd_Challenge.xcdatamodel */,
+			);
+			currentVersion = 623F0C56234BAF6600823E7C /* Rekd_Challenge.xcdatamodel */;
+			path = Rekd_Challenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 623F0C43234BAF6600823E7C /* Project object */;
+}
